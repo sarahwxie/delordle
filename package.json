@@ -1,6 +1,6 @@
 {
   "name": "delordle",
-  "description": "A remake of the popular game delordle with additional modes and features.",
+  "description": "DNHS wordle.",
   "version": "1.1.1",
   "private": "true",
   "scripts": {
@@ -11,19 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MikhaD/delordle.git"
+    "url": "git+https://github.com/sarahwxie/delordle.git"
   },
   "keywords": [],
-  "author": "MikhaD",
+  "author": "Sarah Xie",
   "bugs": {
-    "url": "https://github.com/MikhaD/delordle/issues"
+    "url": "https://github.com/sarahwxie/delordle"
   },
-  "homepage": "https://github.com/MikhaD/delordle#readme",
+  "homepage": "https://github.com/sarahwxie/delordle/blob/master/README.md",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "@rollup/plugin-typescript": "^8.3.0",
+    "@sveltejs/adapter-static": "^1.0.0-next.28",
     "@tsconfig/svelte": "^3.0.0",
+    "gh-pages": "^3.2.3",
     "rollup": "^2.64.0",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.5",
