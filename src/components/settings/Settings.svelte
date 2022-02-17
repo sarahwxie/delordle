@@ -42,10 +42,11 @@
 				}
 			}}
 		>
+		<!--
 			<Setting type="switch" bind:value={$settings.hard[$mode]} disabled={!validHard}>
 				<span slot="title">Hard Mode</span>
 				<span slot="desc">Any revealed hints must be used in subsequent guesses</span>
-			</Setting>
+			</Setting> -->
 		</div>
 		<Setting type="switch" bind:value={$settings.dark}>
 			<span slot="title">Dark Theme</span>
@@ -62,10 +63,11 @@
 			<a href="https://github.com/MikhaD/delordle" target="_blank">Leave a ⭐</a>
 			<a href="https://github.com/MikhaD/delordle/issues" target="_blank">Report a Bug</a>
 		</div>
-		<Tips index={tip} />
+		<!--
+		<Tips index={tip} /> -->
 	</div>
 	<div class="footer">
-		
+
 		<div>
 			<div>v1.1.1</div>
 			<div
