@@ -2054,10 +2054,46 @@ var app = (function () {
             "focus",
             "drugs",
             "crack",
-            "opium",
+            "break",
             "canva",
             "paper",
-            "valid"
+            "lunch",
+            "table",
+            "clock",
+            "grade",
+            "coach",
+            "score",
+            "vaped",
+            "vapes",
+            "alarm",
+            "cites",
+            "curve",
+            "limit",
+            "trash",
+            "books",
+            "snake",
+            "tutor",
+            "smart",
+            "geeky",
+            "loser",
+            "nerdy",
+            "clubs",
+            "teach",
+            "study",
+            "robot",
+            "cheer",
+            "dance",
+            "track",
+            "field",
+            "pervy",
+            "drive",
+            "masks",
+            "xanax",
+            "apple",
+            "stats",
+            "rigid",
+            "gross",
+            "bread"
         ]
     };
 
@@ -2366,7 +2402,7 @@ var app = (function () {
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "class", "svelte-17ud64h");
-    			add_location(svg, file$o, 3, 0, 62);
+    			add_location(svg, file$o, 3, 0, 64);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2506,7 +2542,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z");
-    			add_location(path, file$n, 20, 3, 653);
+    			add_location(path, file$n, 20, 3, 658);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -2593,7 +2629,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M4.609 12c0-4.082 3.309-7.391 7.391-7.391a7.39 7.39 0 0 1 6.523 3.912l-1.653 1.567H22v-5.13l-1.572 1.659C18.652 3.841 15.542 2 12 2 6.477 2 2 6.477 2 12s4.477 10 10 10c4.589 0 8.453-3.09 9.631-7.301l-2.512-.703c-.871 3.113-3.73 5.395-7.119 5.395-4.082 0-7.391-3.309-7.391-7.391z");
-    			add_location(path, file$n, 26, 4, 1004);
+    			add_location(path, file$n, 26, 4, 1015);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -2698,7 +2734,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M16,11V3H8v6H2v12h20V11H16z M10,5h4v14h-4V5z M4,11h4v8H4V11z M20,19h-4v-6h4V19z");
-    			add_location(path, file$n, 48, 4, 1783);
+    			add_location(path, file$n, 48, 4, 1816);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -2745,7 +2781,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z");
-    			add_location(path, file$n, 55, 3, 2002);
+    			add_location(path, file$n, 55, 3, 2042);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -2818,13 +2854,13 @@ var app = (function () {
     			t4 = space();
     			create_component(gameicon1.$$.fragment);
     			attr_dev(div0, "class", "icons svelte-1wr6bbv");
-    			add_location(div0, file$n, 18, 1, 580);
+    			add_location(div0, file$n, 18, 1, 583);
     			attr_dev(h1, "class", "svelte-1wr6bbv");
-    			add_location(h1, file$n, 33, 1, 1378);
+    			add_location(h1, file$n, 33, 1, 1396);
     			attr_dev(div1, "class", "icons svelte-1wr6bbv");
-    			add_location(div1, file$n, 45, 1, 1693);
+    			add_location(div1, file$n, 45, 1, 1723);
     			attr_dev(header, "class", "svelte-1wr6bbv");
-    			add_location(header, file$n, 17, 0, 570);
+    			add_location(header, file$n, 17, 0, 572);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3131,15 +3167,15 @@ var app = (function () {
     			div1 = element("div");
     			t2 = text(/*value*/ ctx[0]);
     			attr_dev(div0, "class", "front svelte-onsmvf");
-    			add_location(div0, file$m, 30, 1, 793);
+    			add_location(div0, file$m, 30, 1, 802);
     			attr_dev(div1, "class", "back svelte-onsmvf");
-    			add_location(div1, file$m, 31, 1, 827);
+    			add_location(div1, file$m, 31, 1, 837);
     			attr_dev(div2, "data-animation", /*animation*/ ctx[5]);
     			attr_dev(div2, "class", div2_class_value = "tile " + /*state*/ ctx[1] + " " + /*s*/ ctx[3] + " svelte-onsmvf");
     			set_style(div2, "transition-delay", /*position*/ ctx[2] * DELAY_INCREMENT + "ms");
     			toggle_class(div2, "value", /*value*/ ctx[0]);
     			toggle_class(div2, "pop", /*pop*/ ctx[4]);
-    			add_location(div2, file$m, 23, 0, 649);
+    			add_location(div2, file$m, 23, 0, 651);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3424,7 +3460,7 @@ var app = (function () {
     			attr_dev(div, "class", "board-row svelte-ssibky");
     			attr_dev(div, "data-animation", /*animation*/ ctx[4]);
     			toggle_class(div, "complete", /*guesses*/ ctx[0] > /*num*/ ctx[1]);
-    			add_location(div, file$l, 18, 0, 438);
+    			add_location(div, file$l, 18, 0, 440);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3721,8 +3757,8 @@ var app = (function () {
     			strong = element("strong");
     			t1 = text(/*word*/ ctx[0]);
     			t2 = text(". (failed to fetch definition)");
-    			add_location(strong, file$k, 35, 21, 1024);
-    			add_location(div, file$k, 35, 2, 1005);
+    			add_location(strong, file$k, 35, 21, 1041);
+    			add_location(div, file$k, 35, 2, 1022);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -3787,10 +3823,10 @@ var app = (function () {
     			}
 
     			attr_dev(h2, "class", "svelte-1cpaagx");
-    			add_location(h2, file$k, 24, 2, 701);
-    			add_location(em, file$k, 25, 2, 719);
+    			add_location(h2, file$k, 24, 2, 707);
+    			add_location(em, file$k, 25, 2, 726);
     			attr_dev(ol, "class", "svelte-1cpaagx");
-    			add_location(ol, file$k, 26, 2, 762);
+    			add_location(ol, file$k, 26, 2, 770);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -3885,7 +3921,7 @@ var app = (function () {
     			t1 = text(t1_value);
     			t2 = text(".");
     			attr_dev(li, "class", "svelte-1cpaagx");
-    			add_location(li, file$k, 28, 4, 799);
+    			add_location(li, file$k, 28, 4, 809);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -3923,7 +3959,7 @@ var app = (function () {
     			li = element("li");
     			t = text(t_value);
     			attr_dev(li, "class", "svelte-1cpaagx");
-    			add_location(li, file$k, 31, 4, 948);
+    			add_location(li, file$k, 31, 4, 961);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -3948,7 +3984,7 @@ var app = (function () {
     	return block;
     }
 
-    // (22:27)    <h4>Fetching definition...</h4>  {:then data}
+    // (22:27)     <h4>Fetching definition...</h4>   {:then data}
     function create_pending_block(ctx) {
     	let h4;
 
@@ -3956,7 +3992,7 @@ var app = (function () {
     		c: function create() {
     			h4 = element("h4");
     			h4.textContent = "Fetching definition...";
-    			add_location(h4, file$k, 22, 2, 653);
+    			add_location(h4, file$k, 22, 2, 657);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h4, anchor);
@@ -3971,7 +4007,7 @@ var app = (function () {
     		block,
     		id: create_pending_block.name,
     		type: "pending",
-    		source: "(22:27)    <h4>Fetching definition...</h4>  {:then data}",
+    		source: "(22:27)     <h4>Fetching definition...</h4>   {:then data}",
     		ctx
     	});
 
@@ -4000,7 +4036,7 @@ var app = (function () {
     			div = element("div");
     			info.block.c();
     			attr_dev(div, "class", "def");
-    			add_location(div, file$k, 20, 0, 605);
+    			add_location(div, file$k, 20, 0, 607);
     		},
     		l: function claim(nodes) {
     			throw new Error_1("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4142,20 +4178,20 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div = element("div");
-    			t0 = text("Considering all hints, there are:\n\t\t\t");
+    			t0 = text("Considering all hints, there are:\r\n\t\t\t");
     			br0 = element("br");
     			br1 = element("br");
     			t1 = space();
     			t2 = text(/*pAns*/ ctx[3]);
-    			t3 = text(" possible answers\n\t\t\t");
+    			t3 = text(" possible answers\r\n\t\t\t");
     			br2 = element("br");
     			t4 = space();
     			t5 = text(/*pSols*/ ctx[4]);
     			t6 = text(" valid guesses");
-    			add_location(br0, file$j, 23, 3, 646);
-    			add_location(br1, file$j, 23, 9, 652);
-    			add_location(br2, file$j, 25, 3, 689);
-    			add_location(div, file$j, 21, 2, 600);
+    			add_location(br0, file$j, 23, 3, 661);
+    			add_location(br1, file$j, 23, 9, 667);
+    			add_location(br2, file$j, 25, 3, 706);
+    			add_location(div, file$j, 21, 2, 613);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -4217,22 +4253,22 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div = element("div");
-    			t0 = text("Considering all hints, this row had:\n\t\t\t");
+    			t0 = text("Considering all hints, this row had:\r\n\t\t\t");
     			br0 = element("br");
     			br1 = element("br");
     			t1 = space();
     			t2 = text(/*pAns*/ ctx[3]);
-    			t3 = text(" possible answers\n\t\t\t");
+    			t3 = text(" possible answers\r\n\t\t\t");
     			br2 = element("br");
     			t4 = space();
     			t5 = text(/*pSols*/ ctx[4]);
     			t6 = text(" valid guesses");
     			t7 = space();
     			create_component(definition.$$.fragment);
-    			add_location(br0, file$j, 14, 3, 466);
-    			add_location(br1, file$j, 14, 9, 472);
-    			add_location(br2, file$j, 16, 3, 509);
-    			add_location(div, file$j, 12, 2, 417);
+    			add_location(br0, file$j, 14, 3, 472);
+    			add_location(br1, file$j, 14, 9, 478);
+    			add_location(br2, file$j, 16, 3, 517);
+    			add_location(div, file$j, 12, 2, 421);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -4307,7 +4343,7 @@ var app = (function () {
     			attr_dev(div, "class", "ctx-menu svelte-bkv8yc");
     			set_style(div, "top", /*y*/ ctx[1] + "px");
     			set_style(div, "left", /*x*/ ctx[0] + "px");
-    			add_location(div, file$j, 10, 0, 340);
+    			add_location(div, file$j, 10, 0, 342);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4667,12 +4703,12 @@ var app = (function () {
     			attr_dev(path, "d", /*icon*/ ctx[3]);
     			attr_dev(path, "stroke-width", "14");
     			attr_dev(path, "class", "svelte-10yswyk");
-    			add_location(path, file$i, 54, 3, 1304);
+    			add_location(path, file$i, 54, 3, 1323);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "viewBox", "0 0 200 200");
     			attr_dev(svg, "fill", "none");
     			attr_dev(svg, "class", "svelte-10yswyk");
-    			add_location(svg, file$i, 53, 2, 1226);
+    			add_location(svg, file$i, 53, 2, 1244);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -4732,7 +4768,7 @@ var app = (function () {
     			t1 = space();
     			if (if_block1) if_block1.c();
     			attr_dev(div, "class", "board svelte-10yswyk");
-    			add_location(div, file$i, 41, 0, 986);
+    			add_location(div, file$i, 41, 0, 992);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5104,7 +5140,7 @@ var app = (function () {
     			if (default_slot) default_slot.c();
     			attr_dev(div, "class", div_class_value = "" + (null_to_empty(/*state*/ ctx[1]) + " svelte-1ymomqm"));
     			toggle_class(div, "big", /*letter*/ ctx[0].length !== 1);
-    			add_location(div, file$h, 6, 0, 167);
+    			add_location(div, file$h, 6, 0, 169);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5444,11 +5480,11 @@ var app = (function () {
     			svg = svg_element("svg");
     			path = svg_element("path");
     			attr_dev(path, "d", "M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H7.07L2.4 12l4.66-7H22v14zm-11.59-2L14 13.41 17.59 17 19 15.59 15.41 12 19 8.41 17.59 7 14 10.59 10.41 7 9 8.41 12.59 12 9 15.59z");
-    			add_location(path, file$g, 72, 4, 2140);
+    			add_location(path, file$g, 72, 4, 2174);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "class", "svelte-fc2dek");
-    			add_location(svg, file$g, 71, 3, 2075);
+    			add_location(svg, file$g, 71, 3, 2108);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -5567,14 +5603,14 @@ var app = (function () {
     			t4 = space();
     			create_component(key1.$$.fragment);
     			attr_dev(div0, "class", "row svelte-fc2dek");
-    			add_location(div0, file$g, 43, 1, 1429);
+    			add_location(div0, file$g, 43, 1, 1434);
     			attr_dev(div1, "class", "row svelte-fc2dek");
-    			add_location(div1, file$g, 52, 1, 1603);
+    			add_location(div1, file$g, 52, 1, 1617);
     			attr_dev(div2, "class", "row svelte-fc2dek");
-    			add_location(div2, file$g, 61, 1, 1777);
+    			add_location(div2, file$g, 61, 1, 1800);
     			attr_dev(div3, "class", "keyboard svelte-fc2dek");
     			toggle_class(div3, "preventChange", /*preventChange*/ ctx[1]);
-    			add_location(div3, file$g, 42, 0, 1385);
+    			add_location(div3, file$g, 42, 0, 1389);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5947,12 +5983,12 @@ var app = (function () {
     			t = space();
     			if (default_slot) default_slot.c();
     			attr_dev(div0, "class", "exit svelte-1838614");
-    			add_location(div0, file$f, 25, 3, 658);
+    			add_location(div0, file$f, 25, 3, 674);
     			attr_dev(div1, "class", "modal svelte-1838614");
-    			add_location(div1, file$f, 24, 2, 635);
+    			add_location(div1, file$f, 24, 2, 650);
     			attr_dev(div2, "class", "overlay svelte-1838614");
     			toggle_class(div2, "visible", /*visible*/ ctx[0]);
-    			add_location(div2, file$f, 23, 1, 575);
+    			add_location(div2, file$f, 23, 1, 589);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div2, anchor);
@@ -6064,10 +6100,10 @@ var app = (function () {
     			t = space();
     			if (default_slot) default_slot.c();
     			attr_dev(div0, "class", "exit svelte-1838614");
-    			add_location(div0, file$f, 13, 2, 345);
+    			add_location(div0, file$f, 13, 2, 349);
     			attr_dev(div1, "class", "page svelte-1838614");
     			toggle_class(div1, "visible", /*visible*/ ctx[0]);
-    			add_location(div1, file$f, 12, 1, 310);
+    			add_location(div1, file$f, 12, 1, 313);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -6153,7 +6189,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z");
-    			add_location(path, file$f, 27, 5, 714);
+    			add_location(path, file$f, 27, 5, 732);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -6182,7 +6218,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z");
-    			add_location(path, file$f, 15, 4, 399);
+    			add_location(path, file$f, 15, 4, 405);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -6388,12 +6424,12 @@ var app = (function () {
     			div1 = element("div");
     			if (_2_slot) _2_slot.c();
     			attr_dev(div0, "class", "svelte-1cu43ge");
-    			add_location(div0, file$e, 4, 1, 90);
+    			add_location(div0, file$e, 4, 1, 93);
     			attr_dev(div1, "class", "svelte-1cu43ge");
-    			add_location(div1, file$e, 7, 1, 125);
+    			add_location(div1, file$e, 7, 1, 131);
     			attr_dev(div2, "class", "sep svelte-1cu43ge");
     			toggle_class(div2, "visible", /*visible*/ ctx[0]);
-    			add_location(div2, file$e, 3, 0, 57);
+    			add_location(div2, file$e, 3, 0, 59);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -6543,19 +6579,19 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div = element("div");
-    			t = text("share\n\t");
+    			t = text("share\r\n\t");
     			svg = svg_element("svg");
     			path = svg_element("path");
     			attr_dev(path, "fill", "white");
     			attr_dev(path, "d", "M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92c0-1.61-1.31-2.92-2.92-2.92zM18 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM6 13c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm12 7.02c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z");
-    			add_location(path, file$d, 19, 2, 686);
+    			add_location(path, file$d, 19, 2, 696);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "width", "24");
-    			add_location(svg, file$d, 18, 1, 600);
+    			add_location(svg, file$d, 18, 1, 609);
     			attr_dev(div, "class", "svelte-1n7mq4x");
-    			add_location(div, file$d, 11, 0, 497);
+    			add_location(div, file$d, 11, 0, 499);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -6838,7 +6874,7 @@ var app = (function () {
     			div1.textContent = `Each guess must be a valid ${COLS} letter word. Hit the enter button to submit.`;
     			t11 = space();
     			div2 = element("div");
-    			div2.textContent = "After each guess, the color of the tiles will change to show how close your guess was to the\n\tword.";
+    			div2.textContent = "After each guess, the color of the tiles will change to show how close your guess was to the\r\n\tword.";
     			t13 = space();
     			div10 = element("div");
     			div3 = element("div");
@@ -6898,37 +6934,37 @@ var app = (function () {
     			t42 = space();
     			div11 = element("div");
     			div11.textContent = "This is a Del Norte High School Themed Wordle.";
-    			add_location(h3, file$c, 5, 0, 127);
-    			add_location(strong0, file$c, 6, 15, 163);
+    			add_location(h3, file$c, 5, 0, 129);
+    			add_location(strong0, file$c, 6, 15, 166);
     			attr_dev(div0, "class", "svelte-6daei");
-    			add_location(div0, file$c, 6, 0, 148);
+    			add_location(div0, file$c, 6, 0, 151);
     			attr_dev(div1, "class", "svelte-6daei");
-    			add_location(div1, file$c, 7, 0, 212);
+    			add_location(div1, file$c, 7, 0, 216);
     			attr_dev(div2, "class", "svelte-6daei");
-    			add_location(div2, file$c, 8, 0, 302);
-    			add_location(strong1, file$c, 13, 6, 470);
+    			add_location(div2, file$c, 8, 0, 307);
+    			add_location(strong1, file$c, 13, 6, 480);
     			attr_dev(div3, "class", "svelte-6daei");
-    			add_location(div3, file$c, 13, 1, 465);
+    			add_location(div3, file$c, 13, 1, 475);
     			attr_dev(div4, "class", "row svelte-6daei");
-    			add_location(div4, file$c, 14, 1, 503);
-    			add_location(strong2, file$c, 21, 17, 706);
+    			add_location(div4, file$c, 14, 1, 514);
+    			add_location(strong2, file$c, 21, 17, 724);
     			attr_dev(div5, "class", "svelte-6daei");
-    			add_location(div5, file$c, 21, 1, 690);
+    			add_location(div5, file$c, 21, 1, 708);
     			attr_dev(div6, "class", "row svelte-6daei");
-    			add_location(div6, file$c, 22, 1, 772);
-    			add_location(strong3, file$c, 29, 17, 975);
+    			add_location(div6, file$c, 22, 1, 791);
+    			add_location(strong3, file$c, 29, 17, 1001);
     			attr_dev(div7, "class", "svelte-6daei");
-    			add_location(div7, file$c, 29, 1, 959);
+    			add_location(div7, file$c, 29, 1, 985);
     			attr_dev(div8, "class", "row svelte-6daei");
-    			add_location(div8, file$c, 30, 1, 1039);
-    			add_location(strong4, file$c, 37, 17, 1241);
+    			add_location(div8, file$c, 30, 1, 1066);
+    			add_location(strong4, file$c, 37, 17, 1275);
     			attr_dev(div9, "class", "svelte-6daei");
-    			add_location(div9, file$c, 37, 1, 1225);
+    			add_location(div9, file$c, 37, 1, 1259);
     			attr_dev(div10, "class", "examples svelte-6daei");
     			toggle_class(div10, "complete", /*visible*/ ctx[0]);
-    			add_location(div10, file$c, 12, 0, 416);
+    			add_location(div10, file$c, 12, 0, 425);
     			attr_dev(div11, "class", "svelte-6daei");
-    			add_location(div11, file$c, 39, 0, 1305);
+    			add_location(div11, file$c, 39, 0, 1341);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -7160,13 +7196,13 @@ var app = (function () {
     			svg = svg_element("svg");
     			path = svg_element("path");
     			attr_dev(path, "d", "M4.609 12c0-4.082 3.309-7.391 7.391-7.391a7.39 7.39 0 0 1 6.523 3.912l-1.653 1.567H22v-5.13l-1.572 1.659C18.652 3.841 15.542 2 12 2 6.477 2 2 6.477 2 12s4.477 10 10 10c4.589 0 8.453-3.09 9.631-7.301l-2.512-.703c-.871 3.113-3.73 5.395-7.119 5.395-4.082 0-7.391-3.309-7.391-7.391z");
-    			add_location(path, file$b, 37, 4, 1246);
+    			add_location(path, file$b, 37, 4, 1259);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "class", "svelte-1r6cx1i");
-    			add_location(svg, file$b, 36, 3, 1181);
+    			add_location(svg, file$b, 36, 3, 1193);
     			attr_dev(div, "class", "button svelte-1r6cx1i");
-    			add_location(div, file$b, 35, 2, 1105);
+    			add_location(div, file$b, 35, 2, 1116);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -7237,7 +7273,7 @@ var app = (function () {
     			t3 = text(":");
     			t4 = text(t4_value);
     			attr_dev(div, "class", "timer svelte-1r6cx1i");
-    			add_location(div, file$b, 29, 2, 875);
+    			add_location(div, file$b, 29, 2, 880);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -7311,9 +7347,9 @@ var app = (function () {
     			div = element("div");
     			if_block.c();
     			attr_dev(h3, "class", "svelte-1r6cx1i");
-    			add_location(h3, file$b, 26, 0, 812);
+    			add_location(h3, file$b, 26, 0, 814);
     			attr_dev(div, "class", "container svelte-1r6cx1i");
-    			add_location(div, file$b, 27, 0, 835);
+    			add_location(div, file$b, 27, 0, 838);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -7498,7 +7534,7 @@ var app = (function () {
     			div = element("div");
     			t = text(t_value);
     			attr_dev(div, "class", "slice svelte-1dgg1bc");
-    			add_location(div, file$a, 10, 2, 296);
+    			add_location(div, file$a, 10, 2, 300);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -7558,7 +7594,7 @@ var app = (function () {
     			}
 
     			attr_dev(div, "class", "toast svelte-1dgg1bc");
-    			add_location(div, file$a, 8, 0, 250);
+    			add_location(div, file$a, 8, 0, 252);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -7731,23 +7767,23 @@ var app = (function () {
     			svg1 = svg_element("svg");
     			path1 = svg_element("path");
     			attr_dev(div0, "class", "number svelte-7nikys");
-    			add_location(div0, file$9, 11, 1, 368);
+    			add_location(div0, file$9, 11, 1, 371);
     			attr_dev(div1, "class", "tip svelte-7nikys");
-    			add_location(div1, file$9, 12, 1, 425);
+    			add_location(div1, file$9, 12, 1, 429);
     			attr_dev(path0, "d", "M75,0L25,50L75,100z");
-    			add_location(path0, file$9, 19, 2, 618);
+    			add_location(path0, file$9, 19, 2, 629);
     			attr_dev(svg0, "class", "left svelte-7nikys");
     			attr_dev(svg0, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg0, "viewBox", "0 0 100 100");
-    			add_location(svg0, file$9, 13, 1, 463);
+    			add_location(svg0, file$9, 13, 1, 468);
     			attr_dev(path1, "d", "M25,0L75,50L25,100z");
-    			add_location(path1, file$9, 27, 2, 802);
+    			add_location(path1, file$9, 27, 2, 821);
     			attr_dev(svg1, "class", "right svelte-7nikys");
     			attr_dev(svg1, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg1, "viewBox", "0 0 100 100");
-    			add_location(svg1, file$9, 21, 1, 660);
+    			add_location(svg1, file$9, 21, 1, 673);
     			attr_dev(div2, "class", "outer svelte-7nikys");
-    			add_location(div2, file$9, 10, 0, 347);
+    			add_location(div2, file$9, 10, 0, 349);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -7874,7 +7910,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M4.167 4.167c-1.381 1.381-1.381 3.619 0 5L6.5 11.5a1.18 1.18 0 0 1 0 1.667 1.18 1.18 0 0 1-1.667 0L2.5 10.833C.199 8.532.199 4.801 2.5 2.5s6.032-2.301 8.333 0l3.333 3.333c2.301 2.301 2.301 6.032 0 8.333a1.18 1.18 0 0 1-1.667 0 1.18 1.18 0 0 1 0-1.667c1.381-1.381 1.381-3.619 0-5L9.167 4.167c-1.381-1.381-3.619-1.381-5 0zm5.667 14c-2.301-2.301-2.301-6.032 0-8.333a1.18 1.18 0 0 1 1.667 0 1.18 1.18 0 0 1 0 1.667c-1.381 1.381-1.381 3.619 0 5l3.333 3.333c1.381 1.381 3.619 1.381 5 0s1.381-3.619 0-5L17.5 12.5a1.18 1.18 0 0 1 0-1.667 1.18 1.18 0 0 1 1.667 0l2.333 2.333c2.301 2.301 2.301 6.032 0 8.333s-6.032 2.301-8.333 0l-3.333-3.333z");
-    			add_location(path, file$8, 15, 2, 460);
+    			add_location(path, file$8, 15, 2, 464);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -7920,13 +7956,13 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			create_component(gameicon.$$.fragment);
-    			t0 = text("\n\tCopy link to this game (");
+    			t0 = text("\r\n\tCopy link to this game (");
     			t1 = text(t1_value);
     			t2 = text(" #");
     			t3 = text(/*wordNumber*/ ctx[0]);
     			t4 = text(")");
     			attr_dev(div, "class", "svelte-qtlar2");
-    			add_location(div, file$8, 13, 0, 423);
+    			add_location(div, file$8, 13, 0, 425);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -8082,11 +8118,11 @@ var app = (function () {
     			div1 = element("div");
     			t2 = text(/*name*/ ctx[1]);
     			attr_dev(div0, "class", "stat svelte-dvu5v6");
-    			add_location(div0, file$7, 5, 1, 76);
+    			add_location(div0, file$7, 5, 1, 79);
     			attr_dev(div1, "class", "name svelte-dvu5v6");
-    			add_location(div1, file$7, 6, 1, 108);
+    			add_location(div1, file$7, 6, 1, 112);
     			attr_dev(section, "class", "svelte-dvu5v6");
-    			add_location(section, file$7, 4, 0, 65);
+    			add_location(section, file$7, 4, 0, 67);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -8289,9 +8325,9 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h3, file$6, 29, 0, 889);
+    			add_location(h3, file$6, 29, 0, 891);
     			attr_dev(div, "class", "svelte-ljn64v");
-    			add_location(div, file$6, 30, 0, 940);
+    			add_location(div, file$6, 30, 0, 943);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -8509,13 +8545,13 @@ var app = (function () {
     			t2 = text(t2_value);
     			t3 = space();
     			attr_dev(span, "class", "guess svelte-1oddrjt");
-    			add_location(span, file$5, 11, 4, 327);
+    			add_location(span, file$5, 11, 4, 334);
     			attr_dev(div0, "class", "bar svelte-1oddrjt");
     			set_style(div0, "width", /*guess*/ ctx[4][1] / /*max*/ ctx[3] * 100 + "%");
     			toggle_class(div0, "this", parseInt(/*guess*/ ctx[4][0]) === /*guesses*/ ctx[0] && !/*active*/ ctx[2]);
-    			add_location(div0, file$5, 12, 4, 369);
+    			add_location(div0, file$5, 12, 4, 377);
     			attr_dev(div1, "class", "graph svelte-1oddrjt");
-    			add_location(div1, file$5, 10, 3, 303);
+    			add_location(div1, file$5, 10, 3, 309);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -8638,9 +8674,9 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h3, file$5, 6, 0, 152);
+    			add_location(h3, file$5, 6, 0, 154);
     			attr_dev(div, "class", "container svelte-1oddrjt");
-    			add_location(div, file$5, 7, 0, 180);
+    			add_location(div, file$5, 7, 0, 183);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -8791,7 +8827,7 @@ var app = (function () {
     			attr_dev(div, "disabled", /*disabled*/ ctx[1]);
     			attr_dev(div, "class", "svelte-16o9p8g");
     			toggle_class(div, "checked", /*value*/ ctx[0]);
-    			add_location(div, file$4, 4, 0, 78);
+    			add_location(div, file$4, 4, 0, 80);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -8925,7 +8961,7 @@ var app = (function () {
     			t = text(t_value);
     			option.__value = /*i*/ ctx[6];
     			option.value = option.__value;
-    			add_location(option, file$3, 7, 2, 159);
+    			add_location(option, file$3, 7, 2, 163);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -8973,7 +9009,7 @@ var app = (function () {
     			select.disabled = /*disabled*/ ctx[2];
     			attr_dev(select, "class", "svelte-2btkgx");
     			if (/*value*/ ctx[0] === void 0) add_render_callback(() => /*select_change_handler*/ ctx[3].call(select));
-    			add_location(select, file$3, 5, 0, 99);
+    			add_location(select, file$3, 5, 0, 101);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -9194,12 +9230,12 @@ var app = (function () {
     			t1 = space();
     			if (switch_instance) create_component(switch_instance.$$.fragment);
     			attr_dev(div0, "class", "title svelte-40b4uj");
-    			add_location(div0, file$2, 14, 2, 302);
+    			add_location(div0, file$2, 14, 2, 306);
     			attr_dev(div1, "class", "desc svelte-40b4uj");
-    			add_location(div1, file$2, 15, 2, 351);
-    			add_location(div2, file$2, 13, 1, 294);
+    			add_location(div1, file$2, 15, 2, 356);
+    			add_location(div2, file$2, 13, 1, 297);
     			attr_dev(div3, "class", "setting svelte-40b4uj");
-    			add_location(div3, file$2, 12, 0, 271);
+    			add_location(div3, file$2, 12, 0, 273);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -9452,67 +9488,7 @@ var app = (function () {
     /* src\components\settings\Settings.svelte generated by Svelte v3.46.4 */
     const file$1 = "src\\components\\settings\\Settings.svelte";
 
-    // (41:4) 
-    function create_title_slot_3(ctx) {
-    	let span;
-
-    	const block = {
-    		c: function create() {
-    			span = element("span");
-    			span.textContent = "Hard Mode";
-    			attr_dev(span, "slot", "title");
-    			add_location(span, file$1, 40, 4, 1284);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, span, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(span);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_title_slot_3.name,
-    		type: "slot",
-    		source: "(41:4) ",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (42:4) 
-    function create_desc_slot_2(ctx) {
-    	let span;
-
-    	const block = {
-    		c: function create() {
-    			span = element("span");
-    			span.textContent = "Any revealed hints must be used in subsequent guesses";
-    			attr_dev(span, "slot", "desc");
-    			add_location(span, file$1, 41, 4, 1324);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, span, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(span);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_desc_slot_2.name,
-    		type: "slot",
-    		source: "(42:4) ",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (46:3) 
+    // (47:3) 
     function create_title_slot_2(ctx) {
     	let span;
 
@@ -9521,7 +9497,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Dark Theme";
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$1, 45, 3, 1483);
+    			add_location(span, file$1, 46, 3, 1515);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -9535,14 +9511,14 @@ var app = (function () {
     		block,
     		id: create_title_slot_2.name,
     		type: "slot",
-    		source: "(46:3) ",
+    		source: "(47:3) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (49:3) 
+    // (50:3) 
     function create_title_slot_1(ctx) {
     	let span;
 
@@ -9551,7 +9527,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Color Blind Mode";
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$1, 48, 3, 1596);
+    			add_location(span, file$1, 49, 3, 1631);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -9565,14 +9541,14 @@ var app = (function () {
     		block,
     		id: create_title_slot_1.name,
     		type: "slot",
-    		source: "(49:3) ",
+    		source: "(50:3) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (50:3) 
+    // (51:3) 
     function create_desc_slot_1(ctx) {
     	let span;
 
@@ -9581,7 +9557,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "High contrast colors";
     			attr_dev(span, "slot", "desc");
-    			add_location(span, file$1, 49, 3, 1642);
+    			add_location(span, file$1, 50, 3, 1678);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -9595,14 +9571,14 @@ var app = (function () {
     		block,
     		id: create_desc_slot_1.name,
     		type: "slot",
-    		source: "(50:3) ",
+    		source: "(51:3) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (53:3) 
+    // (54:3) 
     function create_title_slot(ctx) {
     	let span;
 
@@ -9611,7 +9587,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Game Mode";
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$1, 52, 3, 1795);
+    			add_location(span, file$1, 53, 3, 1834);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -9625,14 +9601,14 @@ var app = (function () {
     		block,
     		id: create_title_slot.name,
     		type: "slot",
-    		source: "(53:3) ",
+    		source: "(54:3) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (54:3) 
+    // (55:3) 
     function create_desc_slot(ctx) {
     	let span;
 
@@ -9641,7 +9617,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "The game mode determines how often the word refreshes";
     			attr_dev(span, "slot", "desc");
-    			add_location(span, file$1, 53, 3, 1834);
+    			add_location(span, file$1, 54, 3, 1874);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -9655,7 +9631,7 @@ var app = (function () {
     		block,
     		id: create_desc_slot.name,
     		type: "slot",
-    		source: "(54:3) ",
+    		source: "(55:3) ",
     		ctx
     	});
 
@@ -9668,34 +9644,30 @@ var app = (function () {
     	let h3;
     	let t1;
     	let div0;
+    	let t2;
     	let setting0;
     	let updating_value;
-    	let t2;
+    	let t3;
     	let setting1;
     	let updating_value_1;
-    	let t3;
+    	let t4;
     	let setting2;
     	let updating_value_2;
-    	let t4;
-    	let setting3;
-    	let updating_value_3;
     	let t5;
     	let div1;
     	let a0;
     	let t7;
     	let a1;
     	let t9;
-    	let tips;
-    	let t10;
     	let div6;
     	let div5;
     	let div3;
-    	let t12;
+    	let t11;
     	let div4;
-    	let t13_value = modeData.modes[/*$mode*/ ctx[4]].name + "";
+    	let t12_value = modeData.modes[/*$mode*/ ctx[3]].name + "";
+    	let t12;
     	let t13;
     	let t14;
-    	let t15;
     	let current;
     	let mounted;
     	let dispose;
@@ -9706,43 +9678,22 @@ var app = (function () {
 
     	let setting0_props = {
     		type: "switch",
-    		disabled: !/*validHard*/ ctx[0],
-    		$$slots: {
-    			desc: [create_desc_slot_2],
-    			title: [create_title_slot_3]
-    		},
+    		$$slots: { title: [create_title_slot_2] },
     		$$scope: { ctx }
     	};
 
-    	if (/*$settings*/ ctx[2].hard[/*$mode*/ ctx[4]] !== void 0) {
-    		setting0_props.value = /*$settings*/ ctx[2].hard[/*$mode*/ ctx[4]];
+    	if (/*$settings*/ ctx[2].dark !== void 0) {
+    		setting0_props.value = /*$settings*/ ctx[2].dark;
     	}
 
     	setting0 = new Setting({ props: setting0_props, $$inline: true });
     	binding_callbacks.push(() => bind(setting0, 'value', setting0_value_binding));
 
     	function setting1_value_binding(value) {
-    		/*setting1_value_binding*/ ctx[10](value);
+    		/*setting1_value_binding*/ ctx[9](value);
     	}
 
     	let setting1_props = {
-    		type: "switch",
-    		$$slots: { title: [create_title_slot_2] },
-    		$$scope: { ctx }
-    	};
-
-    	if (/*$settings*/ ctx[2].dark !== void 0) {
-    		setting1_props.value = /*$settings*/ ctx[2].dark;
-    	}
-
-    	setting1 = new Setting({ props: setting1_props, $$inline: true });
-    	binding_callbacks.push(() => bind(setting1, 'value', setting1_value_binding));
-
-    	function setting2_value_binding(value) {
-    		/*setting2_value_binding*/ ctx[11](value);
-    	}
-
-    	let setting2_props = {
     		type: "switch",
     		$$slots: {
     			desc: [create_desc_slot_1],
@@ -9752,17 +9703,17 @@ var app = (function () {
     	};
 
     	if (/*$settings*/ ctx[2].colorblind !== void 0) {
-    		setting2_props.value = /*$settings*/ ctx[2].colorblind;
+    		setting1_props.value = /*$settings*/ ctx[2].colorblind;
     	}
 
-    	setting2 = new Setting({ props: setting2_props, $$inline: true });
-    	binding_callbacks.push(() => bind(setting2, 'value', setting2_value_binding));
+    	setting1 = new Setting({ props: setting1_props, $$inline: true });
+    	binding_callbacks.push(() => bind(setting1, 'value', setting1_value_binding));
 
-    	function setting3_value_binding(value) {
-    		/*setting3_value_binding*/ ctx[12](value);
+    	function setting2_value_binding(value) {
+    		/*setting2_value_binding*/ ctx[10](value);
     	}
 
-    	let setting3_props = {
+    	let setting2_props = {
     		type: "dropdown",
     		options: modeData.modes.map(func),
     		$$slots: {
@@ -9772,17 +9723,12 @@ var app = (function () {
     		$$scope: { ctx }
     	};
 
-    	if (/*$mode*/ ctx[4] !== void 0) {
-    		setting3_props.value = /*$mode*/ ctx[4];
+    	if (/*$mode*/ ctx[3] !== void 0) {
+    		setting2_props.value = /*$mode*/ ctx[3];
     	}
 
-    	setting3 = new Setting({ props: setting3_props, $$inline: true });
-    	binding_callbacks.push(() => bind(setting3, 'value', setting3_value_binding));
-
-    	tips = new Tips({
-    			props: { index: /*tip*/ ctx[3] },
-    			$$inline: true
-    		});
+    	setting2 = new Setting({ props: setting2_props, $$inline: true });
+    	binding_callbacks.push(() => bind(setting2, 'value', setting2_value_binding));
 
     	const block = {
     		c: function create() {
@@ -9792,13 +9738,12 @@ var app = (function () {
     			h3.textContent = "settings";
     			t1 = space();
     			div0 = element("div");
-    			create_component(setting0.$$.fragment);
     			t2 = space();
-    			create_component(setting1.$$.fragment);
+    			create_component(setting0.$$.fragment);
     			t3 = space();
-    			create_component(setting2.$$.fragment);
+    			create_component(setting1.$$.fragment);
     			t4 = space();
-    			create_component(setting3.$$.fragment);
+    			create_component(setting2.$$.fragment);
     			t5 = space();
     			div1 = element("div");
     			a0 = element("a");
@@ -9807,37 +9752,35 @@ var app = (function () {
     			a1 = element("a");
     			a1.textContent = "Report a Bug";
     			t9 = space();
-    			create_component(tips.$$.fragment);
-    			t10 = space();
     			div6 = element("div");
     			div5 = element("div");
     			div3 = element("div");
     			div3.textContent = "v1.1.1";
-    			t12 = space();
+    			t11 = space();
     			div4 = element("div");
-    			t13 = text(t13_value);
-    			t14 = text(" word #");
-    			t15 = text(/*wordNumber*/ ctx[1]);
-    			add_location(h3, file$1, 31, 2, 1055);
-    			add_location(div0, file$1, 32, 2, 1075);
+    			t12 = text(t12_value);
+    			t13 = text(" word #");
+    			t14 = text(/*wordNumber*/ ctx[1]);
+    			add_location(h3, file$1, 31, 2, 1061);
+    			add_location(div0, file$1, 32, 2, 1082);
     			attr_dev(a0, "href", "https://github.com/MikhaD/delordle");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$1, 56, 3, 1951);
+    			add_location(a0, file$1, 57, 3, 1994);
     			attr_dev(a1, "href", "https://github.com/MikhaD/delordle/issues");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$1, 57, 3, 2029);
+    			add_location(a1, file$1, 58, 3, 2073);
     			attr_dev(div1, "class", "links svelte-12vbqbj");
-    			add_location(div1, file$1, 55, 2, 1928);
+    			add_location(div1, file$1, 56, 2, 1970);
     			attr_dev(div2, "class", "settings-top");
-    			add_location(div2, file$1, 30, 1, 1026);
-    			add_location(div3, file$1, 64, 3, 2190);
+    			add_location(div2, file$1, 30, 1, 1031);
+    			add_location(div3, file$1, 66, 3, 2251);
     			attr_dev(div4, "class", "word");
-    			add_location(div4, file$1, 65, 3, 2211);
-    			add_location(div5, file$1, 63, 2, 2181);
+    			add_location(div4, file$1, 67, 3, 2273);
+    			add_location(div5, file$1, 65, 2, 2241);
     			attr_dev(div6, "class", "footer svelte-12vbqbj");
-    			add_location(div6, file$1, 61, 1, 2155);
+    			add_location(div6, file$1, 63, 1, 2215);
     			attr_dev(div7, "class", "outer svelte-12vbqbj");
-    			add_location(div7, file$1, 29, 0, 1005);
+    			add_location(div7, file$1, 29, 0, 1009);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -9848,35 +9791,32 @@ var app = (function () {
     			append_dev(div2, h3);
     			append_dev(div2, t1);
     			append_dev(div2, div0);
-    			mount_component(setting0, div0, null);
     			append_dev(div2, t2);
-    			mount_component(setting1, div2, null);
+    			mount_component(setting0, div2, null);
     			append_dev(div2, t3);
-    			mount_component(setting2, div2, null);
+    			mount_component(setting1, div2, null);
     			append_dev(div2, t4);
-    			mount_component(setting3, div2, null);
+    			mount_component(setting2, div2, null);
     			append_dev(div2, t5);
     			append_dev(div2, div1);
     			append_dev(div1, a0);
     			append_dev(div1, t7);
     			append_dev(div1, a1);
-    			append_dev(div2, t9);
-    			mount_component(tips, div2, null);
-    			append_dev(div7, t10);
+    			append_dev(div7, t9);
     			append_dev(div7, div6);
     			append_dev(div6, div5);
     			append_dev(div5, div3);
-    			append_dev(div5, t12);
+    			append_dev(div5, t11);
     			append_dev(div5, div4);
+    			append_dev(div4, t12);
     			append_dev(div4, t13);
     			append_dev(div4, t14);
-    			append_dev(div4, t15);
     			current = true;
 
     			if (!mounted) {
     				dispose = [
-    					listen_dev(div0, "click", /*click_handler*/ ctx[9], false, false, false),
-    					listen_dev(div4, "contextmenu", prevent_default(/*contextmenu_handler*/ ctx[13]), false, true, false)
+    					listen_dev(div0, "click", /*click_handler*/ ctx[7], false, false, false),
+    					listen_dev(div4, "contextmenu", prevent_default(/*contextmenu_handler*/ ctx[11]), false, true, false)
     				];
 
     				mounted = true;
@@ -9884,79 +9824,58 @@ var app = (function () {
     		},
     		p: function update(ctx, [dirty]) {
     			const setting0_changes = {};
-    			if (dirty & /*validHard*/ 1) setting0_changes.disabled = !/*validHard*/ ctx[0];
 
-    			if (dirty & /*$$scope*/ 16384) {
+    			if (dirty & /*$$scope*/ 8192) {
     				setting0_changes.$$scope = { dirty, ctx };
     			}
 
-    			if (!updating_value && dirty & /*$settings, $mode*/ 20) {
+    			if (!updating_value && dirty & /*$settings*/ 4) {
     				updating_value = true;
-    				setting0_changes.value = /*$settings*/ ctx[2].hard[/*$mode*/ ctx[4]];
+    				setting0_changes.value = /*$settings*/ ctx[2].dark;
     				add_flush_callback(() => updating_value = false);
     			}
 
     			setting0.$set(setting0_changes);
     			const setting1_changes = {};
 
-    			if (dirty & /*$$scope*/ 16384) {
+    			if (dirty & /*$$scope*/ 8192) {
     				setting1_changes.$$scope = { dirty, ctx };
     			}
 
     			if (!updating_value_1 && dirty & /*$settings*/ 4) {
     				updating_value_1 = true;
-    				setting1_changes.value = /*$settings*/ ctx[2].dark;
+    				setting1_changes.value = /*$settings*/ ctx[2].colorblind;
     				add_flush_callback(() => updating_value_1 = false);
     			}
 
     			setting1.$set(setting1_changes);
     			const setting2_changes = {};
 
-    			if (dirty & /*$$scope*/ 16384) {
+    			if (dirty & /*$$scope*/ 8192) {
     				setting2_changes.$$scope = { dirty, ctx };
     			}
 
-    			if (!updating_value_2 && dirty & /*$settings*/ 4) {
+    			if (!updating_value_2 && dirty & /*$mode*/ 8) {
     				updating_value_2 = true;
-    				setting2_changes.value = /*$settings*/ ctx[2].colorblind;
+    				setting2_changes.value = /*$mode*/ ctx[3];
     				add_flush_callback(() => updating_value_2 = false);
     			}
 
     			setting2.$set(setting2_changes);
-    			const setting3_changes = {};
-
-    			if (dirty & /*$$scope*/ 16384) {
-    				setting3_changes.$$scope = { dirty, ctx };
-    			}
-
-    			if (!updating_value_3 && dirty & /*$mode*/ 16) {
-    				updating_value_3 = true;
-    				setting3_changes.value = /*$mode*/ ctx[4];
-    				add_flush_callback(() => updating_value_3 = false);
-    			}
-
-    			setting3.$set(setting3_changes);
-    			const tips_changes = {};
-    			if (dirty & /*tip*/ 8) tips_changes.index = /*tip*/ ctx[3];
-    			tips.$set(tips_changes);
-    			if ((!current || dirty & /*$mode*/ 16) && t13_value !== (t13_value = modeData.modes[/*$mode*/ ctx[4]].name + "")) set_data_dev(t13, t13_value);
-    			if (!current || dirty & /*wordNumber*/ 2) set_data_dev(t15, /*wordNumber*/ ctx[1]);
+    			if ((!current || dirty & /*$mode*/ 8) && t12_value !== (t12_value = modeData.modes[/*$mode*/ ctx[3]].name + "")) set_data_dev(t12, t12_value);
+    			if (!current || dirty & /*wordNumber*/ 2) set_data_dev(t14, /*wordNumber*/ ctx[1]);
     		},
     		i: function intro(local) {
     			if (current) return;
     			transition_in(setting0.$$.fragment, local);
     			transition_in(setting1.$$.fragment, local);
     			transition_in(setting2.$$.fragment, local);
-    			transition_in(setting3.$$.fragment, local);
-    			transition_in(tips.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(setting0.$$.fragment, local);
     			transition_out(setting1.$$.fragment, local);
     			transition_out(setting2.$$.fragment, local);
-    			transition_out(setting3.$$.fragment, local);
-    			transition_out(tips.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -9964,8 +9883,6 @@ var app = (function () {
     			destroy_component(setting0);
     			destroy_component(setting1);
     			destroy_component(setting2);
-    			destroy_component(setting3);
-    			destroy_component(tips);
     			mounted = false;
     			run_all(dispose);
     		}
@@ -9990,7 +9907,7 @@ var app = (function () {
     	validate_store(settings, 'settings');
     	component_subscribe($$self, settings, $$value => $$invalidate(2, $settings = $$value));
     	validate_store(mode, 'mode');
-    	component_subscribe($$self, mode, $$value => $$invalidate(4, $mode = $$value));
+    	component_subscribe($$self, mode, $$value => $$invalidate(3, $mode = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Settings', slots, []);
     	let { validHard } = $$props;
@@ -10001,7 +9918,7 @@ var app = (function () {
     	let root;
 
     	onMount(() => {
-    		$$invalidate(7, root = document.documentElement);
+    		$$invalidate(6, root = document.documentElement);
     	});
 
     	const writable_props = ['validHard', 'visible', 'wordNumber'];
@@ -10010,34 +9927,27 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Settings> was created with unknown prop '${key}'`);
     	});
 
-    	function setting0_value_binding(value) {
-    		if ($$self.$$.not_equal($settings.hard[$mode], value)) {
-    			$settings.hard[$mode] = value;
-    			settings.set($settings);
-    		}
-    	}
-
     	const click_handler = () => {
     		if (!validHard) {
     			toaster.pop("Game has already violated hard mode");
     		}
     	};
 
-    	function setting1_value_binding(value) {
+    	function setting0_value_binding(value) {
     		if ($$self.$$.not_equal($settings.dark, value)) {
     			$settings.dark = value;
     			settings.set($settings);
     		}
     	}
 
-    	function setting2_value_binding(value) {
+    	function setting1_value_binding(value) {
     		if ($$self.$$.not_equal($settings.colorblind, value)) {
     			$settings.colorblind = value;
     			settings.set($settings);
     		}
     	}
 
-    	function setting3_value_binding(value) {
+    	function setting2_value_binding(value) {
     		$mode = value;
     		mode.set($mode);
     	}
@@ -10049,7 +9959,7 @@ var app = (function () {
 
     	$$self.$$set = $$props => {
     		if ('validHard' in $$props) $$invalidate(0, validHard = $$props.validHard);
-    		if ('visible' in $$props) $$invalidate(6, visible = $$props.visible);
+    		if ('visible' in $$props) $$invalidate(5, visible = $$props.visible);
     		if ('wordNumber' in $$props) $$invalidate(1, wordNumber = $$props.wordNumber);
     	};
 
@@ -10074,10 +9984,10 @@ var app = (function () {
 
     	$$self.$inject_state = $$props => {
     		if ('validHard' in $$props) $$invalidate(0, validHard = $$props.validHard);
-    		if ('visible' in $$props) $$invalidate(6, visible = $$props.visible);
+    		if ('visible' in $$props) $$invalidate(5, visible = $$props.visible);
     		if ('wordNumber' in $$props) $$invalidate(1, wordNumber = $$props.wordNumber);
-    		if ('tip' in $$props) $$invalidate(3, tip = $$props.tip);
-    		if ('root' in $$props) $$invalidate(7, root = $$props.root);
+    		if ('tip' in $$props) tip = $$props.tip;
+    		if ('root' in $$props) $$invalidate(6, root = $$props.root);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -10085,11 +9995,11 @@ var app = (function () {
     	}
 
     	$$self.$$.update = () => {
-    		if ($$self.$$.dirty & /*visible*/ 64) {
-    			if (visible) $$invalidate(3, tip = Math.floor(10 * Math.random()));
+    		if ($$self.$$.dirty & /*visible*/ 32) {
+    			if (visible) tip = Math.floor(10 * Math.random());
     		}
 
-    		if ($$self.$$.dirty & /*root, $settings*/ 132) {
+    		if ($$self.$$.dirty & /*root, $settings*/ 68) {
     			{
     				if (root) {
     					$settings.dark
@@ -10110,16 +10020,14 @@ var app = (function () {
     		validHard,
     		wordNumber,
     		$settings,
-    		tip,
     		$mode,
     		toaster,
     		visible,
     		root,
-    		setting0_value_binding,
     		click_handler,
+    		setting0_value_binding,
     		setting1_value_binding,
     		setting2_value_binding,
-    		setting3_value_binding,
     		contextmenu_handler
     	];
     }
@@ -10127,7 +10035,7 @@ var app = (function () {
     class Settings extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$2, create_fragment$2, safe_not_equal, { validHard: 0, visible: 6, wordNumber: 1 });
+    		init(this, options, instance$2, create_fragment$2, safe_not_equal, { validHard: 0, visible: 5, wordNumber: 1 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -10143,7 +10051,7 @@ var app = (function () {
     			console.warn("<Settings> was created without expected prop 'validHard'");
     		}
 
-    		if (/*visible*/ ctx[6] === undefined && !('visible' in props)) {
+    		if (/*visible*/ ctx[5] === undefined && !('visible' in props)) {
     			console.warn("<Settings> was created without expected prop 'visible'");
     		}
 
@@ -10180,7 +10088,7 @@ var app = (function () {
     /* src\components\Game.svelte generated by Svelte v3.46.4 */
     const file = "src\\components\\Game.svelte";
 
-    // (147:0) <Modal  bind:visible={showTutorial}  on:close|once={() => $settings.tutorial === 2 && --$settings.tutorial}  fullscreen={$settings.tutorial === 0} >
+    // (147:0) <Modal   bind:visible={showTutorial}   on:close|once={() => $settings.tutorial === 2 && --$settings.tutorial}   fullscreen={$settings.tutorial === 0}  >
     function create_default_slot_2(ctx) {
     	let tutorial;
     	let current;
@@ -10221,7 +10129,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(147:0) <Modal  bind:visible={showTutorial}  on:close|once={() => $settings.tutorial === 2 && --$settings.tutorial}  fullscreen={$settings.tutorial === 0} >",
+    		source: "(147:0) <Modal   bind:visible={showTutorial}   on:close|once={() => $settings.tutorial === 2 && --$settings.tutorial}   fullscreen={$settings.tutorial === 0}  >",
     		ctx
     	});
 
@@ -10309,7 +10217,7 @@ var app = (function () {
     			h2 = element("h2");
     			h2.textContent = "Statistics not available for historical games";
     			attr_dev(h2, "class", "historical svelte-sv913b");
-    			add_location(h2, file, 156, 2, 5385);
+    			add_location(h2, file, 156, 2, 5433);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -10845,7 +10753,7 @@ var app = (function () {
     			set_style(main, "--cols", COLS);
     			attr_dev(main, "class", "svelte-sv913b");
     			toggle_class(main, "guesses", /*game*/ ctx[2].guesses !== 0);
-    			add_location(main, file, 112, 0, 4185);
+    			add_location(main, file, 112, 0, 4189);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
